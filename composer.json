@@ -1,6 +1,6 @@
 {
   "name": "henryejemuta/laravel-monnify",
-  "description": "A laravel package to seamlessly integrate monnify api within your laravel application",
+  "description": "A Laravel package to seamlessly integrate Monnify API within your Laravel application",
   "keywords": [
     "laravel",
     "monnify",
@@ -18,25 +18,26 @@
     }
   ],
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": "^8.0",
-    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
     "guzzlehttp/guzzle": "^7.0",
     "ext-json": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^9.0",
+    "phpunit/phpunit": "^9.0|^10.0|^11.0|^12.0",
     "mockery/mockery": "^1.0",
-    "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0"
+    "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
   },
   "autoload": {
     "psr-4": {
-      "HenryEjemuta\\LaravelMonnify\\": "src"
+      "HenryEjemuta\\LaravelMonnify\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "HenryEjemuta\\LaravelMonnify\\Tests\\": "tests"
+      "HenryEjemuta\\LaravelMonnify\\Tests\\": "tests/"
     }
   },
   "config": {
